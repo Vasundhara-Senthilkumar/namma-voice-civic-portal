@@ -1,0 +1,10 @@
+{
+  "name": "namma-voice",
+  "version": "1.0.0",
+  "description": "Namma Voice - Civic Complaint Portal Quick Demo",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix frontend install",
+    "start:server": "npm --prefix server start",
+    "start:frontend": "npm --prefix frontend run dev"
+  }
+}
